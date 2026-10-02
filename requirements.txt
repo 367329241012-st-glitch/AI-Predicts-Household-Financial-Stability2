@@ -1,5 +1,5 @@
 streamlit
+Orange3
 pandas
 numpy
 scikit-learn
-joblib
