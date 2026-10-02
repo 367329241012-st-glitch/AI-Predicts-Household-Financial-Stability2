@@ -16,7 +16,7 @@ st.write("กรอกข้อมูลครัวเรือนทั้ง 
 @st.cache_resource
 def load_model():
     # เปลี่ยนชื่อไฟล์ให้ตรงกับไฟล์โมเดลของคุณ เช่น model.pkl
-    return joblib.load("model.pkl")
+    return joblib.load("models/models.pkcls")
 
 try:
     model = load_model()
